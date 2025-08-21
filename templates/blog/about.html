@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block title %}About - My Simple Blog{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+        <h1 class="display-4 mb-4">About My Simple Blog</h1>
+        
+        <div class="card">
+            <div class="card-body">
+                <p class="lead">Welcome to My Simple Blog!</p>
+                
+                <p>This is a simple blog application built with Django. It demonstrates the core concepts of Django web development including:</p>
+                
+                <ul>
+                    <li><strong>Models:</strong> Post, Category, and Comment models with relationships</li>
+                    <li><strong>Views:</strong> Function-based views for handling different pages</li>
+                    <li><strong>Templates:</strong> HTML templates with template inheritance</li>
+                    <li><strong>Forms:</strong> Django forms for user input</li>
+                    <li><strong>Admin:</strong> Django admin interface for content management</li>
+                </ul>
+                
+                <h3>Features</h3>
+                <ul>
+                    <li>📝 Create and publish blog posts</li>
+                    <li>🏷️ Organize posts by categories</li>
+                    <li>💬 Comment system</li>
+                    <li>🔍 Search functionality</li>
+                    <li>📄 Pagination</li>
+                    <li>⭐ Featured posts</li>
+                    <li>📱 Responsive design</li>
+                </ul>
+                
+                <h3>Technology Stack</h3>
+                <ul>
+                    <li><strong>Backend:</strong> Django (Python web framework)</li>
+                    <li><strong>Database:</strong> SQLite (default Django database)</li>
+                    <li><strong>Frontend:</strong> HTML, CSS, Bootstrap 5</li>
+                    <li><strong>JavaScript:</strong> Bootstrap JS for interactive components</li>
+                </ul>
+                
+                <div class="mt-4">
+                    <a href="{% url 'blog:home' %}" class="btn btn-primary">← Back to Blog</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
