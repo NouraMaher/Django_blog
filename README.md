@@ -67,4 +67,4 @@ This experience was a turning point in my career; I successfully created a compr
 كانت هذه التجربة بمثابة نقطة تحول في مسيرتي، حيث نجحت في إنشاء تطبيق متكامل رغم تجربتي الأولى مع جانغو. وبينما أرى جوانب يمكن تحسينها في المستقبل، إلا أنني أعتبر هذا المشروع دليلاً على قدرتي على التعلم السريع وبناء تطبيقات قوية، وهو ما يحفزني على مواصلة التطور.
 
 
-Home-Blog(Django_blog/Home-Blog.jpg)
+![Screenshot of the Django Blog Homepage](Django_blog/Home-Blog.jpg)
